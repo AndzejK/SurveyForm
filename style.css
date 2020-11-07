@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(img/JlEed5.jpg) no-repeat center center fixed;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.7488182773109244) 0%,
+                                             rgba(79,79,79,0.8972776610644257) 35%,
+                                             rgba(175,175,175,0.8160451680672269) 100%),
+    url(img/JlEed5.jpg);
+    background-size: cover;
+    color: #fff;
+    line-height: 1.4;
+    margin-top: 30px;
+}
+
+#main {
+    max-width: 700px;
+    margin: 30px auto 0 auto;
+    
+}
+
+.survey-form {
+   /* background: linear-gradient(90deg, rgba(0,0,0,0.7488182773109244) 0%, rgba(56,56,56,0.8972776610644257) 100%),0.5;*/
+   background: rgba(0, 1, 7, 0.4);
+   border: 1px solid rgba(0, 1, 7, 0.4);
+   border-radius: 25px;
+   padding: 2.5rem;
+   
+}
+
+span#hint {
+    font-size: 15px;
+
+}
+
+.someElBlck {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    
+}
+
+p {
+    margin-top: 0;
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 5px;
+}
+
+input[type=number] {
+    width: 100%;
+}
+
+.form-group {
+    margin:0 auto 1.25rem auto;
+    padding: 0.25rem;
+    display: block;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+/*input field controlling*/
+.form-control {
+    display: block;
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.input-text-area {
+    width: 100%;
+    min-height: 120px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+.form-button__submit {
+    width: 100%;
+    min-height: 33px;
+    color: #fff;
+    background: #12aaed;  /*12aaed*/
+    border-radius: 5px;
+    border-style: none;
+}
+
+.form-button__submit:hover {
+    background: #04bfff;
+}
+.input-radio, .input-checkbox {
+    /*display: inline-block;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;*/
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.text-area {
+    margin-top: 50px;
+}
